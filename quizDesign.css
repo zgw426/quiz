@@ -1,0 +1,93 @@
+.line-bc {
+padding: 20px 10px;
+max-width: 2000px;
+margin: 15px auto;
+text-align: right;
+font-size: 14px;
+background: #668ad8;
+}
+.balloon6 {
+width: 100%;
+min-width: 500px;
+margin: 10px 0;
+overflow: hidden;
+}  
+.balloon6 .faceicon {
+float: left;
+margin-right: -50px;
+width: 40px;
+}
+.balloon6 .faceicon img{
+width: 100%;
+height: auto;
+border-radius: 50%;
+}
+.balloon6 .chatting {
+width: 100%;
+text-align: left;
+}
+.says {
+display: inline-block;
+position: relative; 
+margin: 0 0 0 50px;
+padding: 10px;
+max-width: 2000px;
+border-radius: 12px;
+background: #A4C6FF;
+}
+.says:after {
+content: "";
+display: inline-block;
+position: absolute;
+top: 3px; 
+left: -19px;
+border: 8px solid transparent;
+border-right: 18px solid #A4C6FF;
+-ms-transform: rotate(35deg);
+-webkit-transform: rotate(35deg);
+transform: rotate(35deg);
+}
+.says p {
+margin: 0;
+padding: 0;
+}
+.mycomment {
+margin: 10px 0;
+}
+.mycomment p{
+display: inline-block;
+position: relative; 
+margin: 0 10px 0 0;
+padding: 8px;
+max-width: 2000px;
+border-radius: 12px;
+background: #99CCFF;
+font-size: 15px;
+}
+.mycomment p:after {
+content: "";
+position: absolute;
+top: 3px; 
+right: -19px;
+border: 8px solid transparent;
+border-left: 18px solid #99CCFF;
+-ms-transform: rotate(-35deg);
+-webkit-transform: rotate(-35deg);
+transform: rotate(-35deg);
+}
+.square_btn{
+position: relative;
+display: inline-block;
+font-weight: bold;
+padding: 0.5em 1em;
+text-decoration: none;
+border-left: solid 4px #0000AA;
+border-right: solid 4px #0000AA;
+color: #0000AA;
+background: #e1f3ff;
+transition: .4s;
+}
+.square_btn:hover {
+background: #0000AA;
+color: #FFF;
+}

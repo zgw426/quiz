@@ -1,0 +1,43 @@
+[
+{   "id": "sample-0"
+    ,"Title":"問題サンプル"
+    ,"Quiz":"問題のサンプルです。"
+    ,"Lang":"ja"
+    ,"Voice":""
+    ,"aiconNormal":"s1-normal.PNG"
+    ,"aiconSmile":"s1-smile.PNG"
+    ,"aiconAngry":"s1-angry.PNG"
+    ,"aiconSadness":"s1-sadness.PNG"
+}
+,{   "id": "sample-1"
+    ,"Quiz":"日本で一番高い山はどれですか？"
+    ,"Answer":"A"
+    ,"Lang":"ja"
+    ,"Voice":""
+    ,"InputType":"radio"
+    ,"Choice": 
+    [
+        "A 富士山"
+        ,"B りんご"
+        ,"C みかん"
+        ,"D いちご"
+    ]
+    ,"Description": "日本で一番高い山といえば富士山ですよね。"
+}
+,{   "id": "sample-1"
+    ,"Quiz":"日本で一番長い川はどれですか？"
+    ,"Answer":"A"
+    ,"Lang":"ja"
+    ,"Voice":""
+    ,"InputType":"radio"
+    ,"Choice": 
+    [
+        "A 信濃川"
+        ,"B 机"
+        ,"C ミシン"
+        ,"D こたつ"
+        ,"E カレー"
+    ]
+    ,"Description": "信濃川らしいです"
+}
+]
