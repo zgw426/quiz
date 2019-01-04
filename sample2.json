@@ -1,0 +1,44 @@
+[
+{   "id": "sample-0"
+    ,"Title":"サンプル②"
+    ,"Quiz":"サンプル②:複数選択する形式の問題文のサンプルです"
+    ,"Lang":"ja"
+    ,"Voice":""
+    ,"aiconNormal":"s1-normal.PNG"
+    ,"aiconSmile":"s1-smile.PNG"
+    ,"aiconAngry":"s1-angry.PNG"
+    ,"aiconSadness":"s1-sadness.PNG"
+}
+,{   "id": "sample-1"
+    ,"Quiz":"正解を2つ選択してください。"
+    ,"Answer":"^AA$"
+    ,"Lang":"ja"
+    ,"Voice":""
+    ,"InputType":"checkbox"
+    ,"Choice": 
+    [
+        "A 正解"
+        ,"A 正解"
+        ,"B 不正解"
+        ,"B 不正解"
+        ,"B 不正解"
+    ]
+    ,"Description": ""
+}
+,{   "id": "sample-1"
+    ,"Quiz":"正解を4つ選択してください。"
+    ,"Answer":"^AAAA$"
+    ,"Lang":"ja"
+    ,"Voice":""
+    ,"InputType":"checkbox"
+    ,"Choice": 
+    [
+        "A 正解"
+        ,"A 正解"
+        ,"A 正解"
+        ,"A 正解"
+        ,"B 不正解"
+    ]
+    ,"Description": ""
+}
+]
